@@ -271,12 +271,12 @@
         - `![숭실대학교 로고](https://ssu.ac.kr/wp-content/uploads/2019/04/cymbal_mark.png)`
     2. 출력
         - ![숭실대학교 로고](https://ssu.ac.kr/wp-content/uploads/2019/04/cymbal_mark.png)
-3. 이미지를 링크에 추가하려면 괄호안에 링크를 ""에 넣어 추가한다.
+3. 이미지를 링크에 추가하려면 []를 두르고 괄호안에 링크를 넣어 추가한다.
 4. 예시
     1. 입력
-        - `![숭실대학교 로고](https://ssu.ac.kr/wp-content/uploads/2019/04/cymbal_mark.png,"https://ssu.ac.kr/")`
+        - `[![백마상](White_horese.png "Symbol of Soongsil University")](https://ssu.ac.kr/)`
     2. 출력
-        - ![숭실대학교 로고](https://ssu.ac.kr/wp-content/uploads/2019/04/cymbal_mark.png "https://ssu.ac.kr/")
+        - [![백마상](White_horese.png "Symbol of Soongsil University")](https://ssu.ac.kr/)
 
 # CHAPTER 13. 이스케이프 문자  
 1. 백슬래시 \\를 사용하여 명령어로 쓰이는 문자들을 출력할 수 있다.
