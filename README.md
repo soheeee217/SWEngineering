@@ -5,34 +5,40 @@
 1. \# 뒤에 공백 후 문장을 작성한다.  
 2. \#의 개수가 적을수록 글씨의 크기가 크다.(단 1~6개까지만 지원함)  
 3. 예시  
-    - `# Heading level 1`  
-    - `## Heading level 2`  
-    - `### Heading level 3`  
-    - `##### Heading level 4`  
-    - `##### Heading level 5`  
-    - `###### Heading level 6`  
-
-    # Heading level 1
-    ## Heading level 2
-    ### Heading level 3
-    #### Heading level 4
-    ##### Heading level 5
-    ###### Heading level 6
+    1. 입력  
+        - `# Heading level 1`  
+        - `## Heading level 2`  
+        - `### Heading level 3`  
+        - `##### Heading level 4`  
+        - `##### Heading level 5`  
+        - `###### Heading level 6`  
+    2. 출력  
+        # Heading level 1
+        ## Heading level 2
+        ### Heading level 3
+        #### Heading level 4
+        ##### Heading level 5
+        ###### Heading level 6
 
 4. Heading level 1과 2는 다른 표현방식이 존재한다.
-    - `Heading level 1`  
-    `==================`
-    - `# Heading level 1` 과 같다.  
+    1. 입력  
+        - `Heading level 1`  
+          `==================`
+        - `# Heading level 1` 과 같다.  
+    2. 출력  
 
-    Heading level 1
-    ===============
+        Heading level 1
+        ===============
+    
 
-    - `Heading level 2`  
-    `------------------`
-    - `## Heading level 2` 과 같다.  
+    3. 입력  
+        - `Heading level 2`  
+        `------------------`
+        - `## Heading level 2` 과 같다.  
+    4. 출력  
 
-    Heading level 2
-    ---------------
+        Heading level 2
+        ---------------
 5. \# 뒤에 공백이 반드시 들어가야한다.  
     - `#Heading` (X)
     - `# Heading` (O)
@@ -96,3 +102,25 @@
 4. 단, 굵게 동시에 기울여 강조할 양 옆이 띄어쓰기가 없다면 \*만 사용할 수 있다.
     - This is really\*\*\*very\*\*\*important text. (O)
     - This is really\_\_\_very\_\_\_important text. (X)
+
+# CHAPTER 7. 블록  
+1. \> 을 사용해 단락 앞에 블록을 추가한다.
+2. 예시
+    > Dorothy followed her through many of the beautiful rooms in her castle.  
+    
+    \> Dorothy followed her through many of the beautiful rooms in her castle.
+3. \>을 여러번 사용하면 블록을 중첩할 수 있다.
+    > Dorothy followed her through many of the beautiful rooms in her castle.
+    >
+    >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+    \> Dorothy followed her through many of the beautiful rooms in her castle.  
+    \>  
+    \>\> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.  
+4. 다른 서식 요소와 블록을 중첩할 수 있다. (ex. \-, \+ ...)
+
+# CHAPTER 8. 목록  
+1. 숫자 뒤에 마침표를 추가해 순서있는 목록을 만들 수 있다.
+2. 목록의 첫 숫자가 1이면 뒤의 목록의 번호는 상관없다.
+3. 예시
+    - 1. 
