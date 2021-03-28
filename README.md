@@ -6,13 +6,13 @@ GFM 확장 가이드 마크다운
 2. 예시
     1. 입력
         - ```
-            ```javascript
+            \`\`\`javascript
             fucntion fancyAlert(arg) {  
                 if(arg) {  
                     $.facebox({div:`#foo`})  
                 }  
             }
-            ```
+            \`\`\`
           ```
                 
     3. 출력
