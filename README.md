@@ -5,13 +5,13 @@ GFM 확장 가이드 마크다운
 1. \`\`\`를 코드에 둘러싸면 코드가 강조된다.
 2. 예시
     1. 입력
-        - ``````javascript
-                function fancyAlert(arg) {
+``````javascript
+            function fancyAlert(arg) {
                     if(arg) {
                         $.facebox({div:`#foo`})
                     }
                 }
-           ``````
+```
     2. 출력
         - ```javascript
             function facyAlert(arg) {
