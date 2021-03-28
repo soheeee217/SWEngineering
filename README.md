@@ -11,7 +11,7 @@ GFM 확장 가이드 마크다운
                 if(arg) {  
                     $.facebox({div:`#foo`})  
                 }  
-            }  
+            }
             ```
           ```
                 
