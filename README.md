@@ -6,11 +6,11 @@ GFM 확장 가이드 마크다운
 2. 예시
     1. 입력
             ``````javascript  
-            function fancyAlert(arg) {  
-                    if(arg) {  
-                        $.facebox({div:`#foo`})  
-                    }  
-                }  
+            function fancyAlert(arg) {    
+                    if(arg) {    
+                        $.facebox({div:`#foo`})    
+                    }    
+                }    
             ``````
     2. 출력
         - ```javascript
