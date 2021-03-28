@@ -5,14 +5,13 @@ GFM 확장 가이드 마크다운
 1. \`\`\`를 코드에 둘러싸면 코드가 강조된다.
 2. 예시
     1. 입력
-        - ``
-        - ```javascript
+        - ``````javascript
            function fancyAlert(arg) {
                 if(arg) {
                     $.facebox({div:`#foo`})
                 }
            }
-           `````
+           ``````
     2. 출력
         - ```javascript
             function facyAlert(arg) {
@@ -41,7 +40,7 @@ GFM 확장 가이드 마크다운
 1. 가로열들끼리는 \|로, 세로열들끼리는 \-로 분할하여 테이블을 만들 수 있다.
 2. 예시
     1. 입력
-        - ```First Header | Second Header
+        - ``` First Header | Second Header
             ------------ | -------------
             Content from cell 1 | Content from cell 2
             Content in the first column | Content in the second column
