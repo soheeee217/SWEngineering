@@ -64,37 +64,37 @@
 1. 굵게 강조하고자 하는 단어나 구 전후에 공백 없이 두 개의 **\*** 혹은 __\___ 을 추가한다.
 2. 예시
     1. 입력  
-        - `I just love \*\*bold text\*\*`.
-        - `I just love \_\_bold text\_\_`.  
+        - `I just love **bold text**`.
+        - `I just love __bold text__`.  
     2. 출력  
         - I just love **bold text**. 
         - I just love __bold text__. 
 3. 단, 굵게 강조할 양 옆이 띄어쓰기가 없다면 \*만 사용할 수 있다.
-    - `Love\*\*is\*\*bold.` (O)
-    - `Love\_\_is\_\_bold.` (X)
+    - `Love**is**bold.` (O)
+    - `Love__is__bold.` (X)
 
 # CHAPTER 5. 기울이기 강조  
 1. 기울여서 강조하고자 하는 단어나 구 전후에 공백 없이 한 개의 *\** 혹은 _\__ 을 추가한다.
 2. 예시
     1. 입력  
-        - `Italicized text is the \*cat's meow\*`.
-        - `Italicized text is the \_cat's meow\_`.
+        - `Italicized text is the *cat's meow*`.
+        - `Italicized text is the _cat's meow_`.
     2. 출력  
         - Italicized text is the *cat's meow*. 
         - Italicized text is the _cat's meow_.  
 3. 단, 기울여 강조할 양 옆이 띄어쓰기가 없다면 \*만 사용할 수 있다.
-    - `A\*cat\*meow.` (O)
-    - `A\_cat\_meow.` (X)
+    - `A*cat*meow.` (O)
+    - `A_cat_meow.` (X)
 
 # CHAPTER 6. 굵게 기울이기 강조  
 1. 굵게 동시에 기울여서 강조하고자 하는 단어나 구 전후에 공백 없이 세 개의 **\*** 혹은 __\___ 을 추가한다.
 2. \*와 \_ 을 섞어서 사용이 가능하다.
 3. 예시
     1. 입력  
-        - `This text is \*\*\*really important\*\*\*`.
-        - `This text is \_\_\_really important\_\_\_`.
-        - `This text is \_\_\*really important\*\_\_`.
-        - `This text is \*\*\_really important\_\*\*`.
+        - `This text is ***really important***`.
+        - `This text is ___really important___`.
+        - `This text is __*really important*__`.
+        - `This text is **_really important_**`.
     2. 출력  
         - This text is ***really important***.
         - This text is ___really important___.  
@@ -102,22 +102,22 @@
         - This text is **_really important_**.  
       
 4. 단, 굵게 동시에 기울여 강조할 양 옆이 띄어쓰기가 없다면 \*만 사용할 수 있다.
-    - `This is really\*\*\*very\*\*\*important text.` (O)
-    - `This is really\_\_\_very\_\_\_important text.` (X)
+    - `This is really***very***important text.` (O)
+    - `This is really___very___important text.` (X)
 
 # CHAPTER 7. 블록  
 1. \> 을 사용해 단락 앞에 블록을 추가한다.
 2. 예시
     1. 입력  
-        - `\> Dorothy followed her through many of the beautiful rooms in her castle.`
+        - `> Dorothy followed her through many of the beautiful rooms in her castle.`
     2. 출력  
         > Dorothy followed her through many of the beautiful rooms in her castle.  
 
 3. \>을 여러번 사용하면 블록을 중첩할 수 있다.
     1. 입력  
-        - `\> Dorothy followed her through many of the beautiful rooms in her castle.`  
-        `\>`  
-        `\>\> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.`
+        - `> Dorothy followed her through many of the beautiful rooms in her castle.`  
+        `>`  
+        `>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.`
     2. 출력  
         > Dorothy followed her through many of the beautiful rooms in her castle.
         >
