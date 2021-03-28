@@ -12,8 +12,7 @@ GFM 확장 가이드 마크다운
                     $.facebox({div:`#foo`})  
                 }  
             }
-            ```
-           ```
+            ``````
                 
     3. 출력
         - ```javascript
