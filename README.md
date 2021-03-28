@@ -13,9 +13,8 @@ GFM 확장 가이드 마크다운
                 }  
             }
             ```
-          ```
-                
-    3. 출력
+          ```       
+    2. 출력
         - ```javascript
             function facyAlert(arg) {
                 if(arg) {
